@@ -79,7 +79,7 @@ java -jar G2P-Model.jar <genome> <transformationFunction> <portionSize> <resulti
   </li>
 
   <li><b>resultingImage:</b><br />
-     name of the resulting image file.
+     name of the resulting <b><i>.png image</i></b> file.
   </li>
 </ul>
 
