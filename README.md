@@ -14,6 +14,28 @@
 
 <!-- CONTENT -->
 <h1 >Getting Started</h1>
+The G2P tool allows to extract images from any fasta files, containing set of nucleotides (A, T, C ang G).
+The model can exploit well-known indicators in the field, to create contrast and bring out the breaking points in the final image, and consequently in the genome.
+<br />
+The tool relies on three parameters:
+<ul>
+  <li><b>The genome:</b><br />
+    that correspond to the fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
+  </li>
+  
+  <li><b>The portion size:</b><br />
+     that correspond to the fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
+  </li>
+  
+  <li><b>The genome:</b><br />
+     that correspond to the fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
+  </li>
+</ul>
+
+which allows to extract several representations of a same genome according to the feature that want to be highlighted.
+To demonstrate the effectiveness of the approach, we have developed a tool that implements the $G2P$ model and applied it to two datasets.
+
+
 The application can be used in Graphical modes and in commande line interface (CLI).
 
 
