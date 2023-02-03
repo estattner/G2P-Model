@@ -38,7 +38,7 @@ The application can be used in Graphical modes and in commande line interface (C
 
 
 <h2>Graphic interface</h2>
-The graphical mode can be started by double-clicking on the file "G2P-Model.jar or by using the commande
+The graphical mode can be started by double-clicking on the file <b><i>G2P-Model.jar</i></b> or by using the commande
 <br />
 <br />
   
@@ -46,10 +46,20 @@ The graphical mode can be started by double-clicking on the file "G2P-Model.jar 
 java -jar G2P-Model.jar
 ```
 
-<br />
-Note that in both case the directory "images" must be in the same directory than the G2P-Model.jar file.
+Note that in both case the directory <b><i>images</i></b> must be in the same directory than the <b><i>G2P-Model.jar</i></b> file.
+
+Once the interface is started, a fasta file containing the genome must be loaded to begin. 
+It can be loaded by using the <b><i>Menu</i></b> or the <b><i>Tool bar</i></b>.
+
+
 
 
 <h2>Command line interface</h2>
+
+In commande line, the tool can be used as follow 
+
+```sh
+java -jar G2P-Model.jar <genome> <>
+```
 
 <h2>References</h2>
