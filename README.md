@@ -64,11 +64,11 @@ java -jar G2P-Model.jar <genome> <transformationFunction> <portionSize> <resulti
 
 <ul>
   <li><b>genome:</b><br />
-    that correspond to the .fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
+    that correspond to the <b><i>.fasta file</b></i> containing the whole genome as a sequence of nucleobases (A, T, C ang G).
   </li>
   
   <li><b>transformationFunction:</b><br />
-     that transforms each genome sub-sequence of size S it into an integer representing the color of a pixel.
+     the transformation function used (between: sum, chaffgard, skew, component, diversity, distance, nuclescore)
   </li>
   
   <li><b>portionSize:</b><br />
@@ -76,11 +76,31 @@ java -jar G2P-Model.jar <genome> <transformationFunction> <portionSize> <resulti
   </li>
 
   <li><b>resultingImage:</b><br />
-     name of the file that will be create for resulting image.
+     name of the resulting image file.
   </li>
 </ul>
 
 Note that the resulting image is created, as a <b><i>.png</b></i> file, in the same reporty than the genome file.
 
 
+<h2>Transformation function implemented</h2>
+In the current version of the application, several transformation functions have been implemented
+
+
+
 <h2>References</h2>
+
+<ol>
+  <li>Thomas A Clarke and Laurence D Hurst. Gc-content evolution in prokaryotes and eukaryotes: a tale of two genomes. Trends in genetics, 22(11):632–640, 2006
+  </li>
+  
+  <li> Kazuharu Arakawa and Masaru Tomita. The gc skew index: a measure of genomic compositional asymmetry and the degree of replicational selection. Evolutionary Bioinformatics, 3:117693430700300006, 2007
+  </li>
+  
+  <li> Jan Mrazek and Samuel Karlin. Strand compositional asymmetry in bacterial and large viral genomes. Proceedings of the National Academy of Sciences, 95(7):3720–3725, 1998
+  </li>
+  
+  <li>
+    José Manuel Peregr ́ın-  ́Alvarez and John Parkinson. The global landscape of sequence diversity. Genome biology, 8(11):1–17, 2007
+   </li>
+</ol>
