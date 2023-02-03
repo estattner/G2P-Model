@@ -4,7 +4,7 @@
   From Genome to Pixels Model</h1>
 
   <p align="center">
-    An approach to transform genomes into 2D images
+    <b>An approach to transform Genomes into 2-Dimensional Images</b>
     <br />
     <br />
     <img height="500px" src='images/G2P_2.png' />
