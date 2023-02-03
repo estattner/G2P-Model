@@ -34,8 +34,6 @@ The tool relies on three parameters:
 
 By this way, the G2P Tool allows to extract several representations of a same genome according to the feature that want to be highlighted.
 
-<br />
-<br />
 The application can be used in Graphical modes and in commande line interface (CLI).
 
 
