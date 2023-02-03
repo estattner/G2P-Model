@@ -12,7 +12,8 @@
 </div>
 
 
-<!-- CONTENT -->
+
+<!--------------------------------------------------------------------->
 <h1 >Getting Started</h1>
 The G2P tool allows to extract images from any fasta files, containing set of nucleotides (A, T, C ang G).
 The model can exploit well-known indicators in the field, to create contrast and bring out the breaking points in the final image, and consequently in the genome.
@@ -37,7 +38,9 @@ By this way, the G2P Tool allows to extract several representations of a same ge
 The application can be used in Graphical modes and in commande line interface (CLI).
 
 
-<h2>Graphic interface</h2>
+
+<!--------------------------------------------------------------------->
+<h1>Graphic interface</h1>
 The graphical mode can be started by double-clicking on the file <b><i>G2P-Model.jar</i></b> or by using the commande
 <br />
 <br />
@@ -53,8 +56,8 @@ It can be loaded by using the <b><i>Menu</i></b> or the <b><i>Tool bar</i></b>.
 
 
 
-
-<h2>Command line interface</h2>
+<!--------------------------------------------------------------------->
+<h1>Command line interface</h1>
 
 In commande line, the tool can be used as follow 
 
@@ -83,12 +86,32 @@ java -jar G2P-Model.jar <genome> <transformationFunction> <portionSize> <resulti
 Note that the resulting image is created, as a <b><i>.png</b></i> file, in the same reporty than the genome file.
 
 
-<h2>Transformation function implemented</h2>
-In the current version of the application, several transformation functions have been implemented
+
+<!--------------------------------------------------------------------->
+<h1>Transformation functions implemented</h1>
+In the current version of the application, several transformation functions have been implemented and can be used to extract images highlighting various kinds of features.
+<ul>
+  <li> <b><i>[1] Chargaff index:</b></i><br />
+    provide the fraction of nucleic bases $G$ and $C$ of the sequence. The use with the $G2P$ model, aims to generate images highlighting the regions where this rate is maximiezd or minimzied.
+  </li>
+  
+  <li> <b><i>[2] Skew index:</b></i><br />
+    measures the asymmetry of the distribution of nucleobases in a sequence. The use with the $G2P$ model aims to produce images of the whole genome where the asymmetry is the most extreme.
+  </li>
+  
+  <li> <b><i>[3] Component index:</b></i><br />
+    evaluates the distribution of the bases in a sequence by comparing the number of each base $A$ and $T$ to the expected frequency of that bases in a balanced distribution. Images produces by this way highlight the regions where the imbalance is the strongest.
+  </li>
+  
+  <li> <b><i>[4] Diversity index:</b></i><br />
+    measures the diversity of bases in a sequence by comparing the number of different subsequences of given size to the expected frequency of those subsequences in a balanced distribution. In our experiments, we use this measure with subsequences of size 3. 
+  </li>
+</ul>
 
 
 
-<h2>References</h2>
+<!--------------------------------------------------------------------->
+<h1>References</h1>
 
 <ol>
   <li>Thomas A Clarke and Laurence D Hurst. Gc-content evolution in prokaryotes and eukaryotes: a tale of two genomes. Trends in genetics, 22(11):632–640, 2006
