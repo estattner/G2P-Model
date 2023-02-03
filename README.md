@@ -40,6 +40,7 @@ The application can be used in Graphical modes and in commande line interface (C
 
 
 <!--------------------------------------------------------------------->
+
 <h1>Graphic interface</h1>
 The graphical mode can be started by double-clicking on the file <b><i>G2P-Model.jar</i></b> or by using the commande
 <br />
@@ -58,9 +59,20 @@ It can be loaded by using the <b><i>Menu</i></b> or the <b><i>Tool bar</i></b>.
 <img src='images/open_1.png' /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='images/open_2.png' />
 </p>
 
+Once the genome is loaded, a transformation function and a portion size can be chosen on the lower part of the window. The effects are directly visible on the resulting genome.
+
+<p align="center">
+<img height="40px" src='images/parameters.png' />
+</p>
+
+Each pixel of the image is clickable and causes the display of the genome sub-sequence that has been used to encode it.
+Thus, when an area of interest is identified on the image, it is then possible to know precisely the composition of the sequence concerned.
+
+Finally, the generated images can be saved in $png$ files and can be opened by any image reader.
 
 
 <!--------------------------------------------------------------------->
+
 <h1>Command line interface</h1>
 
 In commande line, the tool can be used as follow 
@@ -92,6 +104,7 @@ Note that the resulting image is created, as a <b><i>.png</b></i> file, in the s
 
 
 <!--------------------------------------------------------------------->
+
 <h1>Transformation functions implemented</h1>
 In the current version of the application, several transformation functions have been implemented and can be used to extract images highlighting various kinds of features.
 <ul>
