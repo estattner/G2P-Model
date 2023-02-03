@@ -18,10 +18,9 @@ The application can be used in Graphical modes and in commande line interface (C
 
 
 <h2>Graphic interface</h2>
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+```sh
+npm install npm@latest -g
+```
 
 
 <h2>Command line interface</h2>
