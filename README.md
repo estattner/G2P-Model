@@ -63,7 +63,7 @@ java -jar G2P-Model.jar <genome> <transformationFunction> <portionSize> <resulti
 ```
 
 <ul>
-  <li><b>The genome (GN):</b><br />
+  <li><b>genome:</b><br />
     that correspond to the .fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
   </li>
   
@@ -72,11 +72,15 @@ java -jar G2P-Model.jar <genome> <transformationFunction> <portionSize> <resulti
   </li>
   
   <li><b>portionSize:</b><br />
-     the size of the subsequence used to encode each pixel (between: 1 and 100 000)
+     the size of the subsequence used to encode each pixel (between: 1 and 100 000).
   </li>
 
   <li><b>resultingImage:</b><br />
-     name of the file that will be create for resulting image
+     name of the file that will be create for resulting image.
   </li>
 </ul>
+
+Note that the resulting image is created, as a <b><i>.png</b></i> file, in the same reporty than the genome file.
+
+
 <h2>References</h2>
