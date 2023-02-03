@@ -19,23 +19,23 @@ The model can exploit well-known indicators in the field, to create contrast and
 <br />
 The tool relies on three parameters:
 <ul>
-  <li><b>The genome:</b><br />
-    that correspond to the fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
+  <li><b>The genome (GN):</b><br />
+    that correspond to the .fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
   </li>
   
-  <li><b>The portion size:</b><br />
-     that correspond to the fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
+  <li><b>The portion size (S):</b><br />
+     the given size used to extract portions of the genome, used to encode each pixel.
   </li>
   
-  <li><b>The genome:</b><br />
-     that correspond to the fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
+  <li><b>Transformation function (T):</b><br />
+     that transforms each genome sub-sequence of size S it into an integer representing the color of a pixel.
   </li>
 </ul>
 
-which allows to extract several representations of a same genome according to the feature that want to be highlighted.
-To demonstrate the effectiveness of the approach, we have developed a tool that implements the $G2P$ model and applied it to two datasets.
+By this way, the G2P Tool allows to extract several representations of a same genome according to the feature that want to be highlighted.
 
-
+<br />
+<br />
 The application can be used in Graphical modes and in commande line interface (CLI).
 
 
