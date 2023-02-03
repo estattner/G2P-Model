@@ -38,9 +38,11 @@ The application can be used in Graphical modes and in commande line interface (C
 
 
 <h2>Graphic interface</h2>
+The graphical mode can be started by double-clicking on the file "G2P-Model.jar or by using the commande
 ```sh
-npm install npm@latest -g
+java -jar G2P-Model.jar
 ```
+Note that in both case the directory "images" must be in the same directory than the G2P-Model.jar file.
 
 
 <h2>Command line interface</h2>
