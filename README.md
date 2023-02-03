@@ -54,6 +54,10 @@ Note that in both case the directory <b><i>images</i></b> must be in the same di
 Once the interface is started, a fasta file containing the genome must be loaded to begin. 
 It can be loaded by using the <b><i>Menu</i></b> or the <b><i>Tool bar</i></b>.
 
+<p align="center">
+<img src='images/open_1.png' /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <img src='images/open_2.png' />
+</p>
+
 
 
 <!--------------------------------------------------------------------->
