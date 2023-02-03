@@ -59,7 +59,24 @@ It can be loaded by using the <b><i>Menu</i></b> or the <b><i>Tool bar</i></b>.
 In commande line, the tool can be used as follow 
 
 ```sh
-java -jar G2P-Model.jar <genome> <>
+java -jar G2P-Model.jar <genome> <transformationFunction> <portionSize> <resultingImage>
 ```
 
+<ul>
+  <li><b>The genome (GN):</b><br />
+    that correspond to the .fasta file containing the whole genome as a sequence of nucleobases (A, T, C ang G).
+  </li>
+  
+  <li><b>transformationFunction:</b><br />
+     that transforms each genome sub-sequence of size S it into an integer representing the color of a pixel.
+  </li>
+  
+  <li><b>portionSize:</b><br />
+     the size of the subsequence used to encode each pixel (between: 1 and 100 000)
+  </li>
+
+  <li><b>resultingImage:</b><br />
+     name of the file that will be create for resulting image
+  </li>
+</ul>
 <h2>References</h2>
