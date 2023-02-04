@@ -130,7 +130,7 @@ In the current version of the application, several transformation functions have
 
 <h1>Contact</h1>
 
-Erick STattner - [@ErickStattner](https://twitter.com/ErickStattner) - erick.stattner[AT]univ-antilles.fr
+Erick Stattner - [@ErickStattner](https://twitter.com/ErickStattner) - erick.stattner[AT]univ-antilles.fr
 
 Project Link: [https://github.com/estattner/G2P-Model](https://github.com/estattner/G2P-Model)
 
