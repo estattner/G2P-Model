@@ -126,6 +126,16 @@ In the current version of the application, several transformation functions have
 </ul>
 
 
+<!--------------------------------------------------------------------->
+
+<h1>Contact</h1>
+
+Erick STattner - [@ErickStattner](https://twitter.com/ErickStattner) - erick.stattner[AT]univ-antilles.fr
+
+Project Link: [https://github.com/estattner/G2P-Model](https://github.com/estattner/G2P-Model)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!--------------------------------------------------------------------->
 <h1>References</h1>
