@@ -132,25 +132,33 @@ In the current version of the application, several transformation functions have
 
 <!--------------------------------------------------------------------->
 
-<h1>Contact</h1>
+<h1>Development Contributors</h1>
+<ul>
+  <li>
+      Erick Stattner - Full professor in Computer Science<br />
+      Main developer
+  </li>li
 
-Erick Stattner - [@ErickStattner](https://twitter.com/ErickStattner) - erick.stattner[AT]univ-antilles.fr
-
-Project Link: [https://github.com/estattner/G2P-Model](https://github.com/estattner/G2P-Model)
-
+  <li>
+      Aymeric Da Silva Da Costa - Computer science student - 2025<br />
+      Added features: Data preparation process, Evaluating classification performances
+  </li>
+  
+  <li>
+      Baptiste Debuyser - Computer science student - 2025<br />
+      Added features: color mode, tabbed display, look and feel, AI prediction
+  </li>
+</ul>
 
 <!--------------------------------------------------------------------->
 
-<h1>Development Contributor</h1>
+<h1>Contact</h1>
 
-Erick Stattner - Full professor<br />
-Main developer
+Erick Stattner - Full professor in Computer Science<br />
+erick.stattner[AT]univ-antilles.fr
 
-Aymeric Da Silva Da Costa - Computer science student - 2025<br />
-Added features: Data preparation process, Evaluating classification performances
+Project Link: [https://github.com/estattner/G2P-Model](https://github.com/estattner/G2P-Model)
 
-Baptiste Debuyser - Computer science student - 2025<br />
-Added features: color mode, tabbed display, look and feel, AI prediction, 
 
 <!--------------------------------------------------------------------->
 <h1>References</h1>
