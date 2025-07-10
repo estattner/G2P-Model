@@ -1,6 +1,6 @@
 <!-- HEARDERS -->
 <div>
-  <h1 align="center">G2P Model<br />
+  <h1 align="center">G2P Model _ 0.7<br />
   From Genome to Pixels Model</h1>
 
   <p align="center">
