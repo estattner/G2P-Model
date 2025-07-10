@@ -137,7 +137,7 @@ In the current version of the application, several transformation functions have
   <li>
       Erick Stattner - Full professor in Computer Science<br />
       Main developer
-  </li>li
+  </li>
 
   <li>
       Aymeric Da Silva Da Costa - Computer science student - 2025<br />
