@@ -62,7 +62,7 @@ It can be loaded by using the <b><i>Menu</i></b> or the <b><i>Tool bar</i></b>.
 Once the genome is loaded, a transformation function and a portion size can be chosen on the lower part of the window. The effects are directly visible on the resulting genome.
 
 <p align="center">
-<img height="40px" src='images/parameters.png' />
+<img height="140px" src='images/parameters.png' />
 </p>
 
 Each pixel of the image is clickable and causes the display of the genome sub-sequence that has been used to encode it.
