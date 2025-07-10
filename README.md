@@ -136,6 +136,19 @@ Project Link: [https://github.com/estattner/G2P-Model](https://github.com/estatt
 
 
 <!--------------------------------------------------------------------->
+
+<h1>Development Contributor</h1>
+
+Erick Stattner - Full professor
+Main developer
+
+Aymeric Da Silva Da Costa - Computer science student - 2025
+Added features: Data preparation process, Evaluating classification performances
+
+Baptiste Debuyser - Computer science student - 2025
+Added features: color mode, tabbed display, look and feel, AI prediction, 
+
+<!--------------------------------------------------------------------->
 <h1>References</h1>
 
 <ol>
