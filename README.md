@@ -123,6 +123,10 @@ In the current version of the application, several transformation functions have
   <li> <b><i>[4] Diversity index:</b></i><br />
     measures the diversity of bases in a sequence by comparing the number of different subsequences of given size to the expected frequency of those subsequences in a balanced distribution. In our experiments, we use this measure with subsequences of size 3. 
   </li>
+  
+  <li> <b><i>[5] NucleScore index:</b></i><br />
+     combines multiple metrics from a genome sequence to synthesize the nucleotide information of a genome in order to differentiate species based only on their sequences. This is an attempt to summarize, in a single number, a genome through a nucleotide signature.
+  </li>
 </ul>
 
 
@@ -163,5 +167,9 @@ Added features: color mode, tabbed display, look and feel, AI prediction,
   
   <li>
     José Manuel Peregr ́ın-  ́Alvarez and John Parkinson. The global landscape of sequence diversity. Genome biology, 8(11):1–17, 2007
+   </li>
+  
+  <li>
+    Moco, V., Cazenave, D., Garnier, M., Pot, M., Marcelino, I., Talarmin, A., Guyomard-Rabenirina, S., Breurec, S., Ferdinand, S., Dereeper, A., et al.: getsequenceinfo: a suite of tools allowing to get genome sequence information from public repositories. BMC bioinformatics 23(1), 268, 2022
    </li>
 </ol>
